@@ -122,7 +122,7 @@ struct sample_t angle_meas;         // last 3 steer angles
 
 // If using this flag, be very careful about what happens if your fork wants to brake while the
 //   user is pressing the gas. Tesla is careful with this.
-#define UNSAFE_DISABLE_DISENGAGE_ON_GAS 1
+#define UNSAFE_DISABLE_DISENGAGE_ON_GAS 0
 
 // If using this flag, make sure to communicate to your users that a stock safety feature is now disabled.
 #define UNSAFE_DISABLE_STOCK_AEB 2
